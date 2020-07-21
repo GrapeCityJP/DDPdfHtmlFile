@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GrapeCity.DioDocs.Common.Windows.ja" Version="3.1.0.513" />
+    <PackageReference Include="GrapeCity.DioDocs.Html.ja" Version="3.1.0.513" />
+    <PackageReference Include="GrapeCity.DioDocs.Html.Windows.X64.ja" Version="3.1.0.513" />
+    <PackageReference Include="GrapeCity.DioDocs.Pdf.ja" Version="3.1.0.513" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ActiveReports.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
